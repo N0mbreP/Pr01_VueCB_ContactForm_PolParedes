@@ -6,8 +6,8 @@ const nomContacte= ref('')
 const telefonContacte= ref('')
 const afegirContacte=()=>{
   llistaContactes.push({
-  nom:String=nomContacte,
-  telefon:String=telefonContacte
+  nom:String=nomContacte.value,
+  telefon:String=telefonContacte.value
 })
 }
 </script>
